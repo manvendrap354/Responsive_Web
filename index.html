@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="style.css">
+    <title>RESPONSIVE WEBPAGE</title>
+</head>
+
+<body>
+    <div class="mobile-header">
+        <span>
+            <a href="" class="logo"><img src="./images/logo.png" /></a>
+            Untitled UI
+        </span>
+        <img src="./images/three-lines.png" width="26px" height="26px" />
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-left">
+            <div class="sidebar-left-top">
+                <a href="" class="logo"><img src="./images/logo.png" /></a>
+                <a href=""><img src="./images/home_img.png" /></a>
+                <a href=""><img src="./images/bell_img.png" /></a>
+                <a href=""><img src="./images/slide_img.png" /></a>
+                <a href=""><img src="./images/checkmark.png" /></a>
+                <a href=""><img src="./images/circlepie_img.png" /></a>
+                <a href=""><img src="./images/peopleicon_img.png" /></a>
+            </div>
+            <div class="sidebar-left-bottom">
+                <a href=""><img src="./images/lifebtn_img.png" /></a>
+                <a href="" class="active"><img src="./images/settings_img.png" /></a>
+                <span class="profile-pic"></span>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <div class="sidebar-right-top">
+                Settings
+                <div class="sidebar-right_options">
+                    <a href=""><img src="./images/Icon_details.png" />My details</a>
+                    <a href="" class="active"><img src="./images/Icon_profile.png" />Profile<span class="count">10</span></a>
+                    <a href=""><img src="./images/Icon_pswd.png" />Password</a>
+                    <a href=""><img src="./images/Icon_team.png" />Team</a>
+                    <a href=""><img src="./images/Icon_billing.png" />Billing</a>
+                    <a href=""><img src="./images/Icon_notif.png" />Notifications</a>
+                    <a href=""><img src="./images/Icon_integration.png" />Integrations</a>
+                </div>
+            </div>
+            <div class="sidebar-right-bottom">
+                <span>
+                    <span class="name">Olivia Rhye</span>
+                    <span class="email">olivia@untitledui.com</span>
+                </span>
+                <span class="logout">
+                    <img src="./images/Icon_logout.png" />
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <img class="background_img" src="./images/background-img.png" />
+            <div class="details">
+                <div class="user_information">
+                    <span class="profile-pic-container">
+                        <span class="profile_pic_img"> </span>
+                        <span class="tick"><img src="./images/Icon_verified.svg" /></span>
+                    </span>
+                    <span class="info">
+                        <span class="name"> Olivia Rhye </span>
+                        <br />
+                        <span class="email"> olivia@untitledui.com </span>
+                    </span>
+                </div>
+
+                <span class="buttons">
+                    <button class="share-btn"><img src="./images/Icon_share.png" />Share</button>
+                    <button class="view-btn">View Profile</button>
+                </span>
+            </div>
+        </div>
+        <div class="form"></div>
+        <div class="personal-info">
+            <span class="title">
+                <p class="title">Personal info</p>
+                <p class="helping-info">Update your photo and personal details.</p>
+            </span>
+            <div class="update--container">
+                <div class="update-info-top">
+                    <div class="input-name">
+                        <div class="input">
+                            <label>First name</label>
+                            <input type="text" value="Olivia" disabled/>
+                        </div>
+                        <div class="input">
+                            <label>Last name</label>
+                            <input type="text" value="Rhye" disabled/>
+                        </div>
+                    </div>
+                    <div class="input email">
+                        <label>Email address</label>
+                        <input type="email" value="olivia@untitledui.com" disabled/>
+                    </div>
+                    <div class="input-name">
+                        <span class="profile-pic-form"></span>
+                        <input type="file" id="upload-btn" hidden />
+                        <label for="upload-btn" class="upload">
+                            <img src="./images/Icon_upload.png" />
+                            <span>
+                                <span class="upload-purple">Click to upload</span>
+                                or drag and drop
+                            </span>
+                            <span class="upload-small">SVG, PNG, JPG or GIF (max. 800x400px)</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="save-change-button">
+                    <button class="share-btn">Cancel</button>
+                    <button class="view-btn">Save Changes</button>
+                </div>
+            </div>
+        </div>
+        <hr class="line" />
+        <div class="profile-info">
+            <span class="title">
+                <p class="title">Profile</p>
+                <p class="helping-info">Update your portfolio and bio.</p>
+            </span>
+            <div class="update--container">
+                <div class="update-info-top">
+                    <div class="toggle">
+                        <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="slider round"></span>
+                        </label>
+                        <span>
+                            <span class="available">Available for projects<br /></span>
+                            <span class="job-speciality">I’m open and available for freelance work.</span>
+                        </span>
+                    </div>
+                    <div class="input username">
+                        <label>Username</label>
+                        <div class="input-combined">
+                            <span class="input-label">untitled.ui.com/</span>
+                            <input class="special" type="text" value="olivia" disabled/>
+                        </div>
+                    </div>
+                    <div class="input username">
+                        <label>Website</label>
+                        <div class="input-combined">
+                            <span class="input-label"> https:// </span>
+                            <input class="special" type="text" value="www.untitledui.com" disabled/>
+                        </div>
+                    </div>
+                    <div class="input username">
+                        <label>Description</label>
+                        <textarea id="description" cols="30" rows="4" disabled>I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development.</textarea>
+                        <span class="char-count" id="count">275 characters left</span>
+                    </div>
+
+                    <div class="format">
+                        <select class="text-type">
+                            <option>Regular</option>
+                            <option>Phoenix Baker</option>
+                            <option>Olivia Rhye</option>
+                        </select>
+                        <span class="format-icons">
+                            <img src="./images/Icon_bold.png" />
+                            <img src="./images/Icon_italics.png" />
+                            <img src="./images/Icon_attachments.png" />
+                            <img src="./images/Icon_bullet_list.png" />
+                            <img src="./images/Icon_number_list.png" />
+                        </span>
+                    </div>
+                    <div class="input country">
+                        <label>Country</label>
+                        <select class="text-type country">
+                            <option>Australia</option>
+                            <option>India</option>
+                        </select>
+                    </div>
+                    <div class="input timezone">
+                        <label>Timezone</label>
+                        <input type="datetime-local" />
+                    </div>
+                </div>
+                <div class="save-change-button">
+                    <button class="share-btn">Cancel</button>
+                    <button class="view-btn">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
